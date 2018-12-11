@@ -1,0 +1,195 @@
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.util.retry:Converted retries value: 30 -> Retry(total=30, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): login.weixin.qq.com:443
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET / HTTP/1.1" 200 85823
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): wx.qq.com:443
+DEBUG:urllib3.connectionpool:https://wx.qq.com:443 "POST /cgi-bin/mmwebwx-bin/webwxsync?sid=JR05/F76uEOW5+pI&skey=@crypt_36ee7537_0fb31bd82966e34a53e96fa8718c25ac&pass_ticket=tDN2IncmTiDoMWmOihb1DjDyfG4ZU%2Fklh2v%2BMedpEakv3FKWcSFUurPz7cIlsyZC HTTP/1.1" 200 626
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): login.weixin.qq.com:443
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=3473095517 HTTP/1.1" 200 43
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?fun=new&appid=wx782c26e4c19acffb HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                                                                                                
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM    MMMM        MMMM        MMMMMMMMMMMM    MMMM  MMMM      MMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+  MMMM          MMMM    MMMM      MMMMMMMM        MMMM    MMMM    MMMM        MMMM          MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM  MMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMMM  MMMMMMMM  MMMM      MMMM  MMMMMMMM  MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM  MMMM  MMMM  MMMM    MMMM  MMMM    MMMM        MMMMMMMMMMMMMMMM  MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM    MMMM            MMMM  MMMMMMMM  MMMMMMMMMMMM  MMMMMMMM      MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM          MMMM      MMMM      MMMMMMMM  MMMM  MMMMMMMM    MMMM    MMMM      MMMM          MMMM  
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+                    MMMM      MMMMMMMMMMMMMMMM    MMMMMMMM  MMMM  MMMMMMMM  MMMMMMMM                  
+        MMMMMMMM  MMMMMMMM  MMMMMMMMMMMM    MMMM  MMMM    MMMM      MMMMMMMM                MMMMMMMM      
+        MMMM  MMMM  MMMMMMMM              MMMMMMMM    MMMMMMMMMMMM    MMMM  MMMMMMMM    MMMMMMMM    MMMM    
+    MMMMMMMM  MMMM  MMMM  MMMM    MMMMMMMM  MMMM  MMMMMMMMMMMM    MMMMMMMM  MMMMMMMM  MMMMMMMMMMMMMMMM  MMMM      MMMM  
+    MMMM    MMMM    MMMM    MMMMMMMM  MMMM  MMMM  MMMMMMMMMMMM  MMMM  MMMM    MMMMMMMM  MMMMMMMMMMMMMMMMMMMMMMMM  MMMM  
+  MMMM    MMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMM      MMMMMMMMMMMMMMMMMMMMMMMM    MMMMMMMM    MMMMMMMM  MMMMMMMM    MMMMMMMMMMMM  
+      MMMM  MMMMMMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMMMMMM  MMMMMMMM  MMMM  MMMM  MMMMMMMMMMMMMMMM    MMMM  MMMM      
+        MMMMMMMM  MMMMMMMM  MMMMMMMMMMMM    MMMMMMMMMMMMMMMMMMMM  MMMMMMMM      MMMM  MMMM  MMMMMMMM  MMMMMMMMMMMMMMMMMMMM  
+  MMMM      MMMM      MMMM  MMMM  MMMM          MMMM  MMMM  MMMMMMMM      MMMM  MMMM    MMMMMMMMMMMMMMMM    
+        MMMMMMMM  MMMMMMMM          MMMMMMMM    MMMMMMMM  MMMMMMMMMMMMMMMM  MMMM    MMMM  MMMMMMMM    MMMM  MMMM  
+    MMMMMMMMMMMM  MMMM      MMMM    MMMMMMMMMMMMMMMM    MMMM    MMMM  MMMMMMMMMMMM  MMMM  MMMM  MMMM      MMMM    
+      MMMM  MMMM  MMMM  MMMMMMMM        MMMMMMMM  MMMMMMMM  MMMM  MMMM  MMMM    MMMM      MMMM    MMMM  MMMM  
+        MMMM      MMMM  MMMM  MMMMMMMM    MMMM  MMMMMMMM  MMMM  MMMM  MMMMMMMM      MMMM      MMMM        
+  MMMM    MMMM  MMMMMMMMMMMM  MMMMMMMM  MMMMMMMM  MMMMMMMM        MMMM  MMMMMMMMMMMMMMMM  MMMMMMMMMMMM  MMMMMMMM        
+  MMMMMMMM              MMMMMMMM  MMMM  MMMMMMMMMMMM      MMMM  MMMM  MMMMMMMMMMMMMMMMMMMM    MMMMMMMM  MMMM      
+    MMMMMMMM  MMMM  MMMM  MMMMMMMM    MMMM  MMMMMMMM          MMMMMMMM  MMMM    MMMM        MMMM      MMMM  
+      MMMMMMMMMMMMMMMM  MMMMMMMMMMMM    MMMM    MMMMMMMM    MMMM      MMMMMMMM  MMMMMMMMMMMMMMMMMMMMMMMM    MMMMMMMM    
+    MMMMMMMM    MMMMMMMMMMMM        MMMM          MMMM  MMMM  MMMM    MMMMMMMM      MMMMMMMM  MMMM  MMMMMMMM  
+  MMMM      MMMM      MMMMMMMMMMMMMMMM    MMMMMMMM      MMMMMMMMMMMMMMMM  MMMM  MMMMMMMMMMMM      MMMMMMMMMMMMMMMM    
+  MMMMMMMM  MMMMMMMM  MMMMMMMM  MMMMMMMM    MMMM  MMMM    MMMMMMMMMMMM  MMMM    MMMMMMMMMMMM    MMMM  MMMM    MMMMMMMM  
+  MMMM    MMMMMMMM        MMMMMMMM  MMMM        MMMMMMMM    MMMMMMMM  MMMM  MMMMMMMM  MMMM  MMMMMMMMMMMMMMMM      
+  MMMM    MMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMM    MMMMMMMM  MMMM  MMMMMMMM  MMMMMMMM  MMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMM        
+                  MMMMMMMMMMMMMMMMMMMM      MMMM  MMMM    MMMM      MMMM    MMMM      MMMMMMMMMMMMMMMM    
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMM    MMMMMMMM  MMMMMMMMMMMMMMMM          MMMM        MMMM  MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM          MMMM    MMMMMMMM    MMMMMMMM      MMMM    MMMM    MMMMMMMMMMMM  MMMM      MMMMMMMM  MMMM    
+  MMMM  MMMMMMMMMMMM  MMMM  MMMM  MMMM  MMMMMMMMMMMMMMMMMMMMMMMM    MMMM      MMMM    MMMMMMMMMMMMMMMMMMMMMMMM    MMMM    
+  MMMM  MMMMMMMMMMMM  MMMM  MMMM    MMMM  MMMM      MMMM      MMMM        MMMMMMMMMMMM  MMMM    MMMM        
+  MMMM  MMMMMMMMMMMM  MMMM    MMMM  MMMM  MMMM    MMMMMMMM    MMMM  MMMM  MMMM  MMMM  MMMM    MMMMMMMMMMMMMMMMMMMMMMMM  
+  MMMM          MMMM      MMMMMMMMMMMMMMMMMMMM      MMMMMMMM    MMMM      MMMM      MMMM  MMMM  MMMMMMMMMMMM  
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM    MMMM    MMMMMMMMMMMM  MMMMMMMM  MMMM        MMMM      MMMM  MMMM    MMMM    MMMM  
+                                                                              
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536452989 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453014 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453039 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453064 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453089 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453114 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453139 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453165 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453190 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453215 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453240 HTTP/1.1" 200 16
+DEBUG:kafka.client:Sending metadata request MetadataRequest_v1(topics=NULL) to node 0
+DEBUG:kafka.conn:<BrokerConnection node_id=0 host=10.61.120.136/10.61.120.136 port=9092> Request 3: MetadataRequest_v1(topics=NULL)
+DEBUG:kafka.conn:<BrokerConnection node_id=0 host=10.61.120.136/10.61.120.136 port=9092> Response 3: MetadataResponse_v1(brokers=[(node_id=0, host=u'10.61.120.136', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic=u'test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic=u'weixin', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic=u'weibo', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic=u'weibo_user', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic=u'__consumer_offsets', is_internal=True, partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+DEBUG:kafka.cluster:Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 5, groups: 0)
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453265 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=Aari_Gllgw==&tip=0&r=973054&_=1536453290 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=3473095517 HTTP/1.1" 200 43
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?fun=new&appid=wx782c26e4c19acffb HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                                                                                                
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM    MMMMMMMMMMMM  MMMMMMMM        MMMMMMMMMMMM    MMMM  MMMM      MMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+  MMMM          MMMM    MMMM  MMMMMMMMMMMMMMMM            MMMMMMMM    MMMM        MMMM          MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMM          MMMM  MMMMMMMM  MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM  MMMM  MMMM  MMMMMMMMMMMMMMMM  MMMM    MMMM  MMMM    MMMMMMMMMMMMMMMM  MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM    MMMM  MMMMMMMM  MMMM  MMMM  MMMM  MMMMMMMMMMMMMMMM  MMMMMMMM      MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM          MMMM      MMMM    MMMMMMMMMMMM  MMMM      MMMMMMMMMMMM    MMMM      MMMM          MMMM  
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+                    MMMM    MMMMMMMMMMMMMMMMMMMM    MMMMMMMMMMMM    MMMMMMMM  MMMMMMMM                  
+        MMMMMMMM  MMMMMMMM  MMMMMMMMMMMM    MMMM              MMMMMMMM                  MMMMMMMM      
+    MMMM  MMMMMMMMMMMM  MMMMMMMMMMMM        MMMMMMMMMMMM      MMMMMMMMMMMMMMMM  MMMM  MMMMMMMM    MMMMMMMM    MMMM    
+    MMMMMMMMMMMM  MMMMMMMM  MMMMMMMMMMMMMMMMMMMM  MMMM  MMMM  MMMM    MMMMMMMM  MMMMMMMM  MMMMMMMMMMMMMMMM      MMMM  MMMM  
+    MMMMMMMMMMMMMMMM    MMMM  MMMMMMMMMMMM  MMMM    MMMMMMMM  MMMM  MMMM        MMMMMMMM  MMMMMMMM    MMMMMMMM  MMMM  
+  MMMM    MMMM    MMMMMMMMMMMMMMMMMMMMMMMM              MMMMMMMM    MMMMMMMM    MMMMMMMM  MMMMMMMM    MMMMMMMMMMMM  
+        MMMM  MMMM  MMMMMMMM    MMMMMMMMMMMM    MMMMMMMM  MMMMMMMM  MMMM      MMMMMMMMMMMMMMMM    MMMM  MMMM      
+          MMMM  MMMMMMMM      MMMM    MMMM  MMMM      MMMMMMMM    MMMMMMMM  MMMM  MMMMMMMM  MMMMMMMMMMMMMMMMMMMM  
+  MMMM              MMMM  MMMM  MMMM    MMMMMMMMMMMM    MMMM  MMMM        MMMM  MMMM    MMMMMMMMMMMMMMMM    
+      MMMMMMMM  MMMMMMMMMMMMMMMMMMMM      MMMMMMMMMMMM  MMMM    MMMMMMMMMMMMMMMM  MMMM    MMMM  MMMMMMMM    MMMM  MMMM  
+    MMMMMMMMMMMM  MMMM  MMMM  MMMM      MMMMMMMMMMMM    MMMMMMMMMMMMMMMM  MMMMMMMMMMMM  MMMM  MMMM  MMMM      MMMM    
+  MMMMMMMMMMMM  MMMM  MMMMMMMMMMMMMMMM  MMMM      MMMM  MMMMMMMMMMMM  MMMMMMMM  MMMM    MMMM      MMMM    MMMM  MMMM  
+        MMMM        MMMMMMMM        MMMMMMMM  MMMMMMMMMMMM  MMMM    MMMMMMMM      MMMM      MMMM        
+        MMMM  MMMMMMMM    MMMMMMMMMMMMMMMM    MMMMMMMM    MMMM  MMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMMMMMM  MMMMMMMM        
+  MMMMMMMM              MMMMMMMM  MMMMMMMM  MMMMMMMM    MMMMMMMMMMMMMMMM  MMMMMMMM  MMMMMMMM    MMMMMMMM  MMMM  MMMM  
+  MMMM  MMMM  MMMM  MMMM    MMMM      MMMM  MMMM      MMMM        MMMM    MMMM  MMMMMMMM  MMMM      MMMM  
+      MMMMMMMMMMMMMMMM    MMMMMMMM    MMMM    MMMMMMMM    MMMMMMMM  MMMMMMMMMMMM  MMMMMMMMMMMM  MMMMMMMM    MMMMMMMMMMMM  
+    MMMMMMMMMMMM  MMMMMMMM          MMMMMMMM    MMMM  MMMMMMMMMMMMMMMMMMMM    MMMMMMMM      MMMMMMMM  MMMM  MMMM    
+  MMMMMMMM  MMMM        MMMM  MMMMMMMM    MMMM        MMMMMMMMMMMM    MMMM  MMMMMMMMMMMM      MMMMMMMM  MMMM    
+  MMMMMMMM    MMMM  MMMMMMMM  MMMM      MMMM  MMMMMMMMMMMM  MMMMMMMM  MMMM    MMMMMMMMMMMMMMMM  MMMMMMMM      MMMMMMMM  
+  MMMM    MMMMMMMMMMMM      MMMM    MMMM    MMMM  MMMM      MMMMMMMM  MMMM  MMMMMMMM  MMMM  MMMMMMMMMMMMMMMM      
+  MMMM      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM    MMMM        MMMMMMMM  MMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMMMMMMM  MMMM      
+                  MMMMMMMMMMMMMMMMMMMM    MMMMMMMMMMMMMMMM    MMMM      MMMM    MMMM      MMMMMMMMMMMMMMMM    
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMMM  MMMM      MMMM        MMMMMMMM      MMMM  MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM          MMMM            MMMMMMMMMMMMMMMM  MMMM    MMMM  MMMM  MMMMMMMM  MMMM      MMMMMMMM  MMMM    
+  MMMM  MMMMMMMMMMMM  MMMM  MMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMMM              MMMM    MMMMMMMMMMMMMMMMMMMMMMMM    MMMM    
+  MMMM  MMMMMMMMMMMM  MMMM  MMMM  MMMM  MMMMMMMM      MMMMMMMMMMMMMMMM          MMMMMMMMMMMM  MMMM    MMMM        
+  MMMM  MMMMMMMMMMMM  MMMM    MMMM  MMMMMMMM  MMMM  MMMMMMMM  MMMM  MMMMMMMM  MMMM  MMMM  MMMM    MMMMMMMMMMMMMMMMMMMMMMMM  
+  MMMM          MMMM      MMMM  MMMMMMMM        MMMMMMMMMMMMMMMMMMMM      MMMM      MMMM  MMMM  MMMMMMMMMMMM  
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM    MMMM  MMMMMMMM      MMMMMMMM    MMMMMMMM    MMMM      MMMM  MMMM    MMMM    MMMM  
+                                                                              
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453290 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453316 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453341 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453366 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453391 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453416 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453441 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453466 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453491 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453516 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453541 HTTP/1.1" 200 16
+DEBUG:kafka.client:Sending metadata request MetadataRequest_v1(topics=NULL) to node 0
+DEBUG:kafka.conn:<BrokerConnection node_id=0 host=10.61.120.136/10.61.120.136 port=9092> Request 4: MetadataRequest_v1(topics=NULL)
+DEBUG:kafka.conn:<BrokerConnection node_id=0 host=10.61.120.136/10.61.120.136 port=9092> Response 4: MetadataResponse_v1(brokers=[(node_id=0, host=u'10.61.120.136', port=9092, rack=None)], controller_id=0, topics=[(error_code=0, topic=u'test', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic=u'weixin', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic=u'weibo', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic=u'weibo_user', is_internal=False, partitions=[(error_code=0, partition=0, leader=0, replicas=[0], isr=[0])]), (error_code=0, topic=u'__consumer_offsets', is_internal=True, partitions=[(error_code=0, partition=23, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=41, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=32, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=8, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=17, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=44, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=35, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=26, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=11, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=29, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=38, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=47, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=20, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=2, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=5, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=14, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=46, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=49, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=40, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=4, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=13, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=22, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=31, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=16, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=7, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=43, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=25, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=34, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=10, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=37, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=1, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=19, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=28, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=45, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=36, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=27, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=9, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=18, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=21, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=48, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=12, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=3, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=30, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=39, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=15, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=42, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=24, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=33, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=6, leader=0, replicas=[0], isr=[0]), (error_code=0, partition=0, leader=0, replicas=[0], isr=[0])])])
+DEBUG:kafka.cluster:Updated cluster metadata to ClusterMetadata(brokers: 1, topics: 5, groups: 0)
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453566 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=QfhKWtbafw==&tip=0&r=973054&_=1536453591 HTTP/1.1" 200 16
+Log in time out, reloading QR code.
+INFO:itchat:Log in time out, reloading QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/webwxpushloginurl?uin=3473095517 HTTP/1.1" 200 43
+Getting uuid of QR code.
+INFO:itchat:Getting uuid of QR code.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /jslogin?fun=new&appid=wx782c26e4c19acffb HTTP/1.1" 200 64
+Downloading QR code.
+INFO:itchat:Downloading QR code.
+                                                                                                                                
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMMMMMM    MMMM    MMMMMMMMMMMM      MMMMMMMMMMMMMMMM    MMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+  MMMM          MMMM  MMMM    MMMM  MMMMMMMMMMMM      MMMMMMMMMMMMMMMM      MMMMMMMM    MMMM          MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM  MMMMMMMM    MMMMMMMMMMMMMMMM    MMMM    MMMM          MMMM    MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM    MMMM  MMMM    MMMM  MMMMMMMM  MMMM  MMMMMMMM    MMMM        MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM  MMMMMMMMMMMM  MMMM    MMMM    MMMM      MMMMMMMMMMMMMMMM  MMMMMMMM    MMMM        MMMM  MMMMMMMMMMMM  MMMM  
+  MMMM          MMMM  MMMMMMMM            MMMM      MMMMMMMM        MMMMMMMMMMMM  MMMM          MMMM  
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+                  MMMM      MMMM      MMMM    MMMM  MMMMMMMM  MMMM  MMMM  MMMM                  
+      MMMMMMMMMMMM  MMMM  MMMMMMMM  MMMM    MMMM        MMMM    MMMMMMMMMMMMMMMM    MMMMMMMMMMMMMMMM    MMMMMMMMMMMM  
+      MMMM    MMMM  MMMM  MMMMMMMM          MMMMMMMM            MMMMMMMMMMMM    MMMM      MMMM  MMMM    
+    MMMM      MMMMMMMM    MMMM    MMMM          MMMM  MMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMMM  MMMM  MMMM  MMMMMMMMMMMM  
+    MMMM      MMMM  MMMM          MMMM    MMMM  MMMMMMMM    MMMMMMMMMMMM  MMMM  MMMM  MMMM  MMMM    MMMMMMMM  
+  MMMMMMMM  MMMMMMMM  MMMM    MMMM      MMMMMMMMMMMMMMMM          MMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMM  MMMMMMMMMMMM  MMMM  
+    MMMM  MMMM          MMMM  MMMMMMMM  MMMMMMMMMMMMMMMM      MMMMMMMM    MMMM    MMMMMMMM  MMMM  MMMMMMMM      
+    MMMMMMMM  MMMM  MMMM        MMMM  MMMMMMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMMMMMMM      MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMM  
+  MMMM    MMMM  MMMM        MMMM  MMMM  MMMMMMMM  MMMM      MMMM    MMMM  MMMM  MMMMMMMM          MMMM    
+      MMMMMMMMMMMMMMMMMMMMMMMM      MMMM  MMMM            MMMMMMMMMMMM    MMMMMMMM  MMMMMMMMMMMMMMMMMMMM  MMMMMMMMMMMM  
+  MMMMMMMMMMMM  MMMMMMMM    MMMM  MMMMMMMMMMMM  MMMM  MMMMMMMM        MMMM  MMMMMMMM    MMMM    MMMM  MMMMMMMM      
+  MMMM        MMMMMMMMMMMM  MMMMMMMM  MMMMMMMMMMMMMMMMMMMM  MMMMMMMM  MMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMM    MMMM    MMMMMMMM  
+  MMMMMMMMMMMM          MMMM      MMMM        MMMMMMMM      MMMM  MMMM  MMMMMMMM  MMMM  MMMMMMMM          
+  MMMM    MMMMMMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMMMMMM  MMMM      MMMMMMMMMMMM  MMMMMMMM  MMMM    MMMMMMMMMMMMMMMMMMMMMMMM      
+    MMMMMMMMMMMMMMMM    MMMMMMMM    MMMM  MMMM                    MMMMMMMMMMMM        MMMM  MMMM  MMMMMMMM  
+          MMMMMMMMMMMMMMMMMMMMMMMM    MMMM    MMMM  MMMM  MMMM  MMMM  MMMMMMMM  MMMMMMMM    MMMM        MMMMMMMM  
+    MMMMMMMM        MMMMMMMM  MMMM            MMMM      MMMM    MMMM  MMMM    MMMMMMMMMMMM  MMMM        
+          MMMM  MMMM  MMMM  MMMMMMMMMMMMMMMM    MMMMMMMMMMMM    MMMMMMMMMMMM        MMMM  MMMMMMMM  MMMMMMMMMMMMMMMM  
+  MMMM    MMMMMMMM    MMMM    MMMMMMMM  MMMM  MMMMMMMMMMMM            MMMMMMMM    MMMMMMMM  MMMM      MMMM    
+  MMMM  MMMM  MMMMMMMMMMMM      MMMM        MMMM  MMMM    MMMM          MMMMMMMMMMMM  MMMM  MMMM    MMMMMMMM  
+  MMMM  MMMM  MMMM      MMMM  MMMM  MMMM  MMMMMMMMMMMMMMMM    MMMM      MMMM    MMMM  MMMM  MMMMMMMM          
+  MMMM        MMMMMMMMMMMM  MMMM          MMMMMMMMMMMMMMMMMMMM    MMMM  MMMMMMMMMMMM  MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM    
+                  MMMMMMMMMMMM  MMMM    MMMM            MMMM    MMMM  MMMMMMMM      MMMM          
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM      MMMM  MMMMMMMM    MMMM  MMMMMMMMMMMM  MMMM    MMMMMMMM  MMMM  MMMM  MMMMMMMM  MMMMMMMM  
+  MMMM          MMMM      MMMM            MMMM  MMMMMMMM    MMMMMMMM    MMMMMMMM      MMMM    MMMM    
+  MMMM  MMMMMMMMMMMM  MMMM  MMMMMMMM    MMMM  MMMMMMMM      MMMM    MMMM  MMMMMMMM  MMMMMMMMMMMMMMMMMMMMMMMM  MMMMMMMM    
+  MMMM  MMMMMMMMMMMM  MMMM  MMMMMMMMMMMM      MMMMMMMMMMMMMMMM  MMMM  MMMMMMMM    MMMM        MMMM  MMMM  MMMM      
+  MMMM  MMMMMMMMMMMM  MMMM  MMMMMMMM    MMMM      MMMM      MMMM    MMMMMMMM      MMMMMMMM  MMMM  MMMMMMMM  MMMM  
+  MMMM          MMMM    MMMM          MMMMMMMMMMMMMMMMMMMM      MMMM    MMMMMMMMMMMMMMMMMMMM  MMMMMMMM    MMMM  
+  MMMMMMMMMMMMMMMMMMMMMMMMMMMM    MMMMMMMMMMMM    MMMM        MMMMMMMMMMMM  MMMMMMMMMMMMMMMM    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM  
+                                                                              
+Please scan the QR code to log in.
+INFO:itchat:Please scan the QR code to log in.
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453592 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453617 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453642 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453667 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453692 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453717 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453742 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453767 HTTP/1.1" 200 16
+DEBUG:urllib3.connectionpool:https://login.weixin.qq.com:443 "GET /cgi-bin/mmwebwx-bin/login?loginicon=true&uuid=YcFSenZ19w==&tip=0&r=973054&_=1536453793 HTTP/1.1" 200 16
