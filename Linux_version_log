@@ -1,0 +1,56 @@
+for WXmp-linux in alicould
+将win上的site-package中所要用的python库复制到lin上的相关文件夹下是不行的
+
+在linux上需要重新安装爬虫程序需要的所有库和工具
+
+安装的python有：wxpy,bs4,pillow,mongoengine,*pymongo,lxml
+安装的数据库有：mongodb，安装完成后需要添加配置信息，然后开启mongod的服务，才能使用mongo命令行
+
+在程序上的改动：
+1.在启动的.py文件中，main.py wxmpdata.py captureTime.py，加上which python的路径信息，如“/bin/python”
+2.在实例化微信机器人对象时，需要在参数中加入console_qr=True这个参数，才能在终端中显示
+3.将用不到的函数注销为注释，特别是带有中文的抓取条件
+
+
+for WXmp-linux in 58.16.248.129(Gy)
+首先安装mongodb，安装的目录是：/usr/lib64/mongodb...，安装过程如上所示。
+在安装完成后，最好自建wxmp的数据库，然后插入一条测试数据，在执行main.py主程序
+
+安装所要使用到的python库：wxpy,bs4,lxml,*pillow，pymongo，mongoengine
+
+在安装pillow时出现如下几点的报错：
+1.缺少zlib导致无法编译原文件
+解决办法：yum install zlib-devel
+2.缺少jpeg导致无法编译原文件
+解决办法：yum install libjpeg-devel
+3.无法找到include python.h,导致致命错误
+解决办法：yum install python-devel 
+顺利完成安装
+
+在测试main.py中遇到的问题：
+1.忘记添加console_qr=True
+2.首次测试运行数据并没有存入mongodb中，问题是没有打开mongod的服务，进入mongodb的安装目录bin下./mongod打开服务后，在存储测试数据，成功。main.py测试数据也成功。
+3.在对wxmpdata.py准备连接kafka服务器，在单独调试时微信机器人首次登陆出现二维码时发现手机无法扫取二维码图片，阅读wxpy说明文档以后发现需要在白色背景下生成的二维码需要将console_qr的值设置为-2，方能成功扫码登陆微信。
+
+在连接kafka时遇到的问题：
+1.在内网联通kafka以后使用一个10次的for循环将数据上传，在使用consumer进行消费时发现只有部分（5个）数据是被消费的，剩下的数据并没有显示，不知道是不是producer的设置问题。
+2.原本认为mongoengine数据对象使用to_mongo()方法是bson格式的数据，kafka传输会更方便，但是事实上还是json的数据更方便些，通过bootersever中的json序列化方法就可以将json数据传输入kafka的数据库中去了。但是存在一个问题：mongoengine数据格式中有datetimefiled这类数据，经过了json的序列化以后就变成了时间戳，在阅读方面不是很方便。另在序列化数据时，别忘记将json从str格式解码为utf-8格式的字符串。还有就是需要使用到json.dumps(),所以需要加载json的库，不然会报全局变量错误。
+3.在linux系统中源代码里可添加import log来查看debug的信息，分析是否有报错产生。
+* 在所调用的函数里在函数体，即def...之前的语句在被调用时会执行，但只会执行1次，这样就很有利于数据库mongodb或者连接kafka服务器这样的函数的使用，只会在第一次打开相应的网络ip地址，在之后的数据插入操作不会再重复的执行这个操作。
+
+
+
+
+9-15 调试日志
+问题：经过近5天的测试发现一个问题：微信机器人无法长时间的在线，会掉线。
+解决办法：
+1.通过一个函数设定固定时间段向“文件助手”发送信息，以保证用户在线
+2.通过函数向好友发送消息，以保证在线
+经过实际测试方法2比方法1，保证在线的时间更长，但是最终都会出现raiseresponseexception的异常问题
+3.重新建立main()函数的调用，在发送消息函数中如果发生以上的异常，便break无线循环，执行main()，相当于重启机器人
+这里需要注意的是：短时间内被程序退出微信机器人以后，马上登陆不需要扫码以及确认登陆，所以这个方法理论上可行。
+
+另：发现的问题：
+1.screen命令在阿里云的服务器上无法很好执行；
+2.在执行python的main函数时报错：全局变量FileNotFoundName。。。，之后运行几次就好了（通过手机端确认就好了）
+3.mongodb的端口好貌似变掉了。。。
